@@ -318,8 +318,8 @@ public class OpenFilePlugin implements MethodCallHandler
                 startInstallPermissionSettingActivity();
             } else {
                 /*ActivityCompat.requestPermissions(activity,
-                        new String[]{Manifest.permission.REQUEST_INSTALL_PACKAGES}, REQUEST_CODE);
-            }*/
+                        new String[]{Manifest.permission.REQUEST_INSTALL_PACKAGES}, REQUEST_CODE);*/
+            }
         } else {
             startActivity();
         }
