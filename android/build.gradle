@@ -23,9 +23,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "com.crazecoder.openfile"
-    compileSdkVersion 30
+    compileSdkVersion 34
 
     defaultConfig {
+        targetSdkVersion 34
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
